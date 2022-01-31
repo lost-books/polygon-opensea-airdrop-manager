@@ -17,6 +17,6 @@ As a user of AIRLIFT (who is also an OpenSea user), I can do the following:
 - Connect a wallet to AIRLIFT that I also connected to OpenSea, so that I can be authenticated as a user.
 - View my Polygon-enabled OpenSea collections and NFTs in a gallery in AIRLIFT
 - Transfer one or multiple NFTs to one or multiple recipient wallet addresses
-- - Choose one or several of my NFTs from my gallery to include in an individual or bulk transfer
-- - Input manually one or multiple recipient wallet addresses into a form field (using comma or spaces delimited wallet addresses)
-- - Upload a CSV file of recipient wallet addresses
+  - Choose one or several of my NFTs from my gallery to include in an individual or bulk transfer
+  - Input manually one or multiple recipient wallet addresses into a form field (using comma or spaces delimited wallet addresses)
+  - Upload a CSV file of recipient wallet addresses
