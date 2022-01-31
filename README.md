@@ -2,7 +2,7 @@
 
 ## Summary
 
-**AIRLIFT is a simple specification for a utility to manage bulk Polygon NFT transfers (airdrops) using the OpenSea API.**
+**AIRLIFT is a simple specification for a proposed utility (GUI) to manage bulk Polygon NFT transfers (airdrops) using the OpenSea API.**
 
 ## Problem Statement
 
