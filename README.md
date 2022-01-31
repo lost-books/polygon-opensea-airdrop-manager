@@ -14,9 +14,23 @@ AIRLIFT seeks to use OpenSea's API to create a better user experience for NFT ai
 
 As a user of AIRLIFT (who is also an OpenSea user), I can do the following:
 
+** Connect wallet **
+
 - Connect a wallet to AIRLIFT that I also connected to OpenSea, so that I can be authenticated as a user.
+
+** Gallery **
+
 - View my Polygon-enabled OpenSea collections and NFTs in a gallery in AIRLIFT
+- Choose one or several of my NFTs from my gallery to include in an individual or bulk transfer
+- Input manually one or multiple recipient wallet addresses into a form field (using comma or spaces delimited wallet addresses)
+- Upload a CSV file of recipient wallet addresses
 - Transfer one or multiple NFTs to one or multiple recipient wallet addresses
-  - Choose one or several of my NFTs from my gallery to include in an individual or bulk transfer
-  - Input manually one or multiple recipient wallet addresses into a form field (using comma or spaces delimited wallet addresses)
-  - Upload a CSV file of recipient wallet addresses
+- Automatically check if recipient wallet(s) already own(s) the NFT to be transferred, and notify user with choice to remove or proceed if they do
+
+** Error handling **
+
+- Receive meaningful error messages when transfers fail (e.g., what the specific error was, which wallets failed)
+- Enable automatic retries when transfers fail, until they go through successfully
+- Maintain an address book of recipient wallet addresses
+  - View a log of which NFTs I sent to a given wallet address and when
+  - 
